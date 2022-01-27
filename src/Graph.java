@@ -2,7 +2,7 @@ import java.io.File;
 import java.util.*;
 
 public class Graph {
-    private HashMap<String, TreeSet<String>> adjmap;
+    public HashMap<String, TreeSet<String>> adjmap;
     private int numEdges;
 
     public Graph(){
