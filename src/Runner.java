@@ -6,10 +6,13 @@ public class Runner {
                 "U:\\COMPUTER SCIENCE 3" +
                         "\\AirlinesGraph\\src\\airline.txt",
                 " ");
-        ShortestPath s = new ShortestPath("JFK", m);
-        System.out.println("loading...");
-        System.out.println(s.shortestPath("LAX"));
-        System.out.println("done");
+        ShortestPath x = new ShortestPath("JFK", m);
+        System.out.println(x.shortestPath("LAX"));
+        ShortestPath y = new ShortestPath("LAS", m);
+        System.out.println(y.shortestPath("MCO"));
+        ShortestPath z = new ShortestPath("HOU", m);
+        System.out.println(z.shortestPath("JFK"));
+
 
     }
 }
